@@ -1,0 +1,85 @@
+type: object
+required:
+- Area
+- Perimeter
+- MajorAxisLength
+- MinorAxisLength
+- AspectRation
+- Eccentricity
+- ConvexArea
+- EquivDiameter
+- Extent
+- Solidity
+- roundness
+- Compactness
+- ShapeFactor1
+- ShapeFactor2
+- ShapeFactor3
+- ShapeFactor4
+properties:
+  Area:
+    type: string
+    nullable: true
+  Perimeter:
+    type: string
+    nullable: true
+  MajorAxisLength:
+    type: string
+    nullable: true
+  MinorAxisLength:
+    type: string
+    nullable: true
+  AspectRation:
+    type: string
+    nullable: true
+  Eccentricity:
+    type: string
+    nullable: true
+  ConvexArea:
+    type: string
+    nullable: true
+  EquivDiameter:
+    type: string
+    nullable: true
+  Extent:
+    type: string
+    nullable: true
+  Solidity:
+    type: string
+    nullable: true
+  roundness:
+    type: string
+    nullable: true
+  Compactness:
+    type: string
+    nullable: true
+  ShapeFactor1:
+    type: string
+    nullable: true
+  ShapeFactor2:
+    type: string
+    nullable: true
+  ShapeFactor3:
+    type: string
+    nullable: true
+  ShapeFactor4:
+    type: string
+    nullable: true
+nullable: true
+example:
+  Area: '44665.0'
+  Perimeter: '795.062'
+  MajorAxisLength: '296.98910576151104'
+  MinorAxisLength: '192.4672882898351'
+  AspectRation: '1.5514782404972656'
+  Eccentricity: '0.7645650404682037'
+  ConvexArea: '45217.0'
+  EquivDiameter: '238.47273275071944'
+  Extent: '0.7599227027965955'
+  Solidity: '0.988286622089439'
+  roundness: '0.8832633635102107'
+  Compactness: '0.8013156072376694'
+  ShapeFactor1: '0.0066468873206815'
+  ShapeFactor2: '0.0016953195660712'
+  ShapeFactor3: '0.6421067024026749'
+  ShapeFactor4: '0.9963890407561616'
